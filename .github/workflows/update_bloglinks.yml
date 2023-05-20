@@ -1,4 +1,4 @@
-name : updatelinks
+name : Add patience quote
 on : 
  pull_request :
 
