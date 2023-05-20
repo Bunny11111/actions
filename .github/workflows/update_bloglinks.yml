@@ -1,0 +1,14 @@
+name : updatelinks
+on : 
+ pull_request :
+
+jobs :
+ print :
+  runs-on : ubuntu-latest 
+  steps :
+     - name : checkout code
+       uses : actions/checkout@v2
+
+     - name : Here's a fact for you
+     - run : |
+        echo "Open-source developers have mastered the art of patience. It's like waiting for a pull request to be merged - you keep refreshing the page, checking your email, and praying to the coding gods😇😇... and then you realize it's only been 5 minutes.⌛😅⌛"
